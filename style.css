@@ -1,0 +1,88 @@
+/* Reset default styles */
+html, body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set global font styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Style header */
+header {
+  background-color: #0077c9; /* This is a shade of blue */
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+  color: #fff; /* White text for good contrast on blue background */
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff; /* White text for good contrast on blue background */
+  font-weight: 600;
+}
+
+header nav ul li a:hover {
+  color: #ddd; /* Light grey text on hover */
+}
+
+/* Style main content area */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7; /* Light grey background for good contrast with blue header and footer */
+}
+
+main h2 {
+  margin: 20px 0 10px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #0077c9; /* Match the header color */
+}
+
+main h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #0077c9; /* Match the header color */
+}
+
+main p {
+  margin: 10px 0;
+}
+
+/* Style footer */
+footer {
+  background-color: #0077c9; /* This is a shade of blue */
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* White text for good contrast on blue background */
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.8em;
+}
