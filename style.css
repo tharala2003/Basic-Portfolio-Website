@@ -14,7 +14,7 @@ body {
 
 /* Style header */
 header {
-  background-color: #0077c9; /* This is a shade of blue */
+  background-color:#E0FFFF; /* This is a shade of blue */
   padding: 20px;
 }
 
@@ -22,7 +22,7 @@ header h1 {
   margin: 0;
   font-size: 2em;
   text-align: center;
-  color: #fff; /* White text for good contrast on blue background */
+  color:000000; /* black text for good contrast on blue background */
 }
 
 header nav {
@@ -41,7 +41,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #fff; /* White text for good contrast on blue background */
+  color:#000000; /* black text for good contrast on blue background */
   font-weight: 600;
 }
 
@@ -61,13 +61,13 @@ main h2 {
   margin: 20px 0 10px;
   font-size: 1.5em;
   text-align: center;
-  color: #0077c9; /* Match the header color */
+  color:#000000; /* Match the header color */
 }
 
 main h3 {
   margin: 10px 0;
   font-size: 1.2em;
-  color: #0077c9; /* Match the header color */
+  color: #000000; /* Match the header color */
 }
 
 main p {
@@ -76,13 +76,18 @@ main p {
 
 /* Style footer */
 footer {
-  background-color: #0077c9; /* This is a shade of blue */
+  background-color:#E0FFFF; /* This is a shade of blue */
   padding: 20px;
   text-align: center;
-  color: #fff; /* White text for good contrast on blue background */
+  color: #000000; /* White text for good contrast on blue background */
 }
 
 footer p {
   margin: 0;
   font-size: 0.8em;
 }
+.about img {
+    width: 50%;
+    object-fit: cover;
+}
+
